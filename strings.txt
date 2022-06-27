@@ -1,0 +1,9 @@
+let line = prompt();
+let str = "";
+function printSmile(){
+for (let i = 0; i < line; i++){
+    str += ":)";
+    console.log(str)
+}
+}
+printSmile();

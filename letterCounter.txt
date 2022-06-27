@@ -1,0 +1,16 @@
+function getWordStructure(word){
+    let count = 0;
+    let count2 = 0;
+    const vowels = ["a", "e", "i","o","u"];
+    const consonants = ["b","c","d","f","g","h","j","k","l","m","n","p","q","r","s","t","w","x","y","z"]
+    for(let char of word.toLowerCase()){
+        if(vowels.includes(char)){
+            count +=1;
+        }
+        if(consonants.includes(char)){
+            count2 +=1;
+        }
+    }
+    return {count2, count}
+    }
+    console.log(getWordStructure(""))

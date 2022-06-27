@@ -1,0 +1,14 @@
+let a = prompt("number");
+let b = prompt("grade");
+let result
+function calculator(){
+if (a >= 1){
+    result = a ** b
+    alert(result)
+    a= result;
+    
+} else {
+    return
+    }
+}
+calculator()
